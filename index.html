@@ -72,6 +72,7 @@
       }
     </script>
   </head>
+
   <body>
     <header class="navbar">
       <nav class="container nav-content">
@@ -90,9 +91,8 @@
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <!--
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>-->
+          <!-- Optional quick jump on homepage -->
+          <li><a href="#pricing">Pricing</a></li>
         </ul>
 
         <a href="tel:+12396885888" class="nav-btn">Call Now</a>
@@ -132,58 +132,13 @@
           </div>
         </div>
       </section>
-      <!--
-      <section class="facial-showcase-bg" id="facial">
-        <div class="container facial-showcase-inner">
-          
-          <div class="facial-left" data-animate>
-            <div class="facial-kicker">Facial Specials</div>
-            <h2>Facial Care & Rejuvenation</h2>
-            <p class="facial-intro">
-              Thoughtfully designed facial therapies focused on renewal,
-              balance, and a naturally refreshed look.
-            </p>
-
-            <div class="facial-deals">
-              <article class="deal">
-                <h3>Facial Treatment</h3>
-                <p>
-                  A customized facial experience designed to cleanse, nourish,
-                  and restore the skin’s natural clarity.
-                </p>
-                <div class="deal-meta">
-                  <span class="from">From <strong>$180</strong></span>
-                  <span class="duration">60 min+</span>
-                </div>
-              </article>
-
-              <article class="deal">
-                <h3>Facelift Therapy</h3>
-                <p>
-                  Non-invasive lifting techniques that support firmness and
-                  promote a more defined appearance.
-                </p>
-                <div class="deal-meta">
-                  <span class="from">From <strong>$120</strong></span>
-                  <span class="duration">60 min+</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="facial-actions">
-              <a class="btn btn-primary" href="tel:+12396885888">Book Now</a>
-            </div>
-
-            <p class="facial-note">*60 / 90 / 120 minute options available.</p>
-          </div>
-        </div>
-      </section>-->
 
       <section id="services" class="section services">
         <div class="container">
           <h2 class="section-title" data-animate>
             Therapeutic Massage & Relaxation
           </h2>
+
           <div class="services-grid">
             <div class="service-card" data-animate>
               <div class="service-img">
@@ -244,6 +199,7 @@
                 </p>
               </div>
             </div>
+
             <div class="service-card" data-animate>
               <div class="service-img">
                 <img
@@ -263,6 +219,7 @@
                 </p>
               </div>
             </div>
+
             <div class="service-card" data-animate>
               <div class="service-img">
                 <img
@@ -282,6 +239,7 @@
                 </p>
               </div>
             </div>
+
             <div class="service-card" data-animate>
               <div class="service-img">
                 <img
@@ -302,30 +260,166 @@
               </div>
             </div>
           </div>
+
           <div class="services-cta" data-animate>
-            <a href="services.html" class="btn btn-primary">
-              View All Massage Services
-            </a>
+            <a href="services.html" class="btn btn-primary"
+              >View All Massage Services</a
+            >
           </div>
         </div>
       </section>
-      <!-- Reviews (embed via iframe) 
-      <section id="reviews" class="section reviews">
-        <div class="container">
-          <h2 class="section-title" data-animate>What Our Clients Say</h2>
 
-          <div class="reviews-embed" data-animate>
-            <iframe
-              title="Soothe Spa Naples Google Reviews"
-              src="https://079647aa909d4d87b6fa26333010494e.elf.site"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              style="width: 100%; height: 520px; border: 0; overflow: hidden"
-              allow="encrypted-media"
-            ></iframe>
+      <!-- =========================
+           PRICING (embedded from services.html)
+           ========================= -->
+      <section id="pricing" class="section">
+        <div class="container">
+          <h2 class="section-title" data-animate>Services & Pricing</h2>
+          <p class="muted" data-animate>
+            Transparent pricing for our most popular treatments. Call or text to
+            confirm availability.
+          </p>
+
+          <!-- Swedish -->
+          <section class="pricing-block" id="pricing-swedish" data-animate>
+            <div class="pricing-head">
+              <h2>Swedish Massage</h2>
+              <p class="muted">
+                Classic full-body massage to promote relaxation and improve
+                circulation.
+              </p>
+            </div>
+            <div class="price-cards">
+              <div class="price-card">
+                <div class="time">30 Minutes</div>
+                <div class="price">$60</div>
+              </div>
+              <div class="price-card">
+                <div class="time">60 Minutes</div>
+                <div class="price">$80 / $90</div>
+              </div>
+              <div class="price-card">
+                <div class="time">90 Minutes</div>
+                <div class="price">$120 / $130</div>
+              </div>
+              <div class="price-card">
+                <div class="time">120 Minutes</div>
+                <div class="price">$170</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Deep Tissue -->
+          <section class="pricing-block" id="pricing-deeptissue" data-animate>
+            <div class="pricing-head">
+              <h2>Deep Tissue</h2>
+              <p class="muted">
+                Professional deep tissue therapies to relieve tension and
+                promote relaxation.
+              </p>
+            </div>
+            <div class="price-cards">
+              <div class="price-card">
+                <div class="time">30 Minutes</div>
+                <div class="price">$60</div>
+              </div>
+              <div class="price-card">
+                <div class="time">60 Minutes</div>
+                <div class="price">$80 / $90</div>
+              </div>
+              <div class="price-card">
+                <div class="time">90 Minutes</div>
+                <div class="price">$120 / $130</div>
+              </div>
+              <div class="price-card">
+                <div class="time">120 Minutes</div>
+                <div class="price">$170</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Thai -->
+          <section class="pricing-block" id="pricing-thai" data-animate>
+            <div class="pricing-head">
+              <h2>Thai Massage</h2>
+              <p class="muted">
+                Assisted stretching and rhythmic compression to enhance
+                flexibility and energize the body.
+              </p>
+            </div>
+            <div class="price-cards">
+              <div class="price-card">
+                <div class="time">60 Minutes</div>
+                <div class="price">$110</div>
+              </div>
+              <div class="price-card">
+                <div class="time">90 Minutes</div>
+                <div class="price">$80 / $160</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Reflexology -->
+          <section class="pricing-block" id="pricing-reflexology" data-animate>
+            <div class="pricing-head">
+              <h2>Foot Reflexology</h2>
+              <p class="muted">Foot-focused therapy to help reset and relax.</p>
+            </div>
+
+            <div class="price-cards">
+              <div class="price-card">
+                <div class="time">30 Minutes</div>
+                <div class="price">$40</div>
+              </div>
+              <div class="price-card">
+                <div class="time">60 Minutes</div>
+                <div class="price">$60</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Four Hands -->
+          <section class="pricing-block" id="pricing-fourhands" data-animate>
+            <div class="pricing-head">
+              <h2>Four Hands Massage</h2>
+              <p class="muted">
+                Two therapists working in harmony to provide a deeply relaxing
+                and immersive massage experience.
+              </p>
+            </div>
+
+            <div class="price-cards">
+              <div class="price-card">
+                <div class="time">60 Minutes</div>
+                <div class="price">$170</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Couple -->
+          <section class="pricing-block" id="pricing-couple" data-animate>
+            <div class="pricing-head">
+              <h2>Couple Massage</h2>
+              <p class="muted">
+                A shared experience for you and your partner to relax and
+                connect together.
+              </p>
+            </div>
+
+            <div class="price-cards">
+              <div class="price-card">
+                <div class="time">60 Minutes</div>
+                <div class="price">$170</div>
+              </div>
+            </div>
+          </section>
+
+          <div class="services-cta" data-animate style="margin-top: 18px">
+            <a href="tel:+12396885888" class="btn btn-primary">Call to Book</a>
+            <a href="sms:+12396885888" class="btn btn-outline">Text Us</a>
           </div>
         </div>
-      </section>-->
+      </section>
 
       <section id="about" class="section about">
         <div class="container about-flex">
@@ -507,80 +601,7 @@
                 <span class="phone-ic">📞</span>
                 <span>(239) 688-5888</span>
               </a>
-
-              <!--
-              <div class="footer-social" aria-label="Social media links">
-                <a
-                  class="social-ic"
-                  href="https://www.facebook.com/profile.php?id=61586098833238"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our Facebook page"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
-                    fill="currentColor"
-                  >
-                    <path
-                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                    />
-                  </svg>
-                </a>
-
-                <a
-                  class="social-ic"
-                  href="https://www.instagram.com/gs_med_spa/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our Instagram page"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <rect
-                      x="2"
-                      y="2"
-                      width="20"
-                      height="20"
-                      rx="5"
-                      ry="5"
-                    ></rect>
-                    <path
-                      d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                    ></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                  </svg>
-                </a>
-
-                <a
-                  class="social-ic"
-                  href="https://share.google/LHdQEre6X1bI70YrY"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our Google Business Profile"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
-                    fill="currentColor"
-                  >
-                    <path
-                      d="M12.48 10.92v3.28h7.84c-.24 1.84-.90 3.16-1.98 4.28-1.2 1.2-3.12 2.4-6.36 2.4-5.12 0-9.28-4.16-9.28-9.28s4.16-9.28 9.28-9.28c2.8 0 4.94 1.1 6.48 2.58l2.32-2.32C18.66 1.36 15.74 0 12.48 0 5.58 0 0 5.58 0 12.48s5.58 12.48 12.48 12.48c3.74 0 6.58-1.22 8.76-3.5 2.24-2.24 2.94-5.42 2.94-8.02 0-.78-.06-1.52-.18-2.26h-11.5z"
-                    />
-                  </svg>
-                </a>
-              </div>
-            --></div>
+            </div>
           </section>
         </div>
       </div>

@@ -874,54 +874,54 @@ body {
 /* =========================
    Services Page (only)
    ========================= */
-body.services-page .page-hero {
+#pricing .page-hero {
   padding: 72px 0 54px;
   background: #F8F6FB; /* 你要区分 header/hero 的风格，这里非常合适 */
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .page-hero h1 {
+#pricing .page-hero h1 {
   font-family: var(--serif);
   font-size: clamp(2.2rem, 3.2vw, 3rem);
   margin: 0 0 10px;
 }
 
-body.services-page .page-hero p {
+#pricing .page-hero p {
   margin: 0 0 18px;
   color: var(--text-light);
   max-width: 70ch;
 }
 
-body.services-page .page-hero-actions {
+#pricing .page-hero-actions {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
 }
 
-body.services-page .pricing-block {
+#pricing .pricing-block {
   padding: 34px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .pricing-head h2 {
+#pricing .pricing-head h2 {
   font-family: var(--serif);
   margin: 0 0 8px;
   font-size: 1.6rem;
 }
 
-body.services-page .muted {
+#pricing .muted {
   margin: 0;
   color: var(--text-light);
 }
 
-body.services-page .price-cards {
+#pricing .price-cards {
   margin-top: 18px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
 
-body.services-page .price-card {
+#pricing .price-card {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-radius: 16px;
@@ -929,24 +929,24 @@ body.services-page .price-card {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .price-card .time {
+#pricing .price-card .time {
   font-weight: 700;
   margin-bottom: 6px;
 }
 
-body.services-page .price-card .price {
+#pricing .price-card .price {
   font-size: 1.6rem;
   font-weight: 800;
 }
 
-body.services-page .service-grid {
+#pricing .service-grid {
   margin-top: 18px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
 
-body.services-page .service-price {
+#pricing .service-price {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-radius: 16px;
@@ -954,12 +954,12 @@ body.services-page .service-price {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .service-price h3 {
+#pricing .service-price h3 {
   margin: 0 0 12px;
   font-size: 1.15rem;
 }
 
-body.services-page .service-price .row {
+#pricing .service-price .row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -968,14 +968,14 @@ body.services-page .service-price .row {
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .addon-list {
+#pricing .addon-list {
   margin-top: 18px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-body.services-page .addon-item {
+#pricing .addon-item {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-radius: 16px;
@@ -986,7 +986,7 @@ body.services-page .addon-item {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .package-box {
+#pricing .package-box {
   margin-top: 16px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.07);
@@ -995,25 +995,25 @@ body.services-page .package-box {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 }
 
-body.services-page .package-actions {
+#pricing .package-actions {
   margin-top: 14px;
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
 }
 
-body.services-page .fineprint {
+#pricing .fineprint {
   margin-top: 14px;
   color: var(--text-light);
   font-size: 0.92rem;
 }
 
 @media (max-width: 900px) {
-  body.services-page .price-cards,
-  body.services-page .service-grid {
+  #pricing .price-cards,
+  #pricing .service-grid {
     grid-template-columns: 1fr;
   }
-  body.services-page .addon-list {
+  #pricing .addon-list {
     grid-template-columns: 1fr;
   }
 }
